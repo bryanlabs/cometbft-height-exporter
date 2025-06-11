@@ -1,0 +1,5 @@
+prometheus_client
+pyyaml
+requests
+python-dateutil
+python-json-logger

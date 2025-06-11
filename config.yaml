@@ -1,0 +1,20 @@
+chains:
+  thorchain-1:
+    - https://rpc.ninerealms.com
+    - https://thornode-mainnet-rpc.bryanlabs.net
+  cosmoshub-4:
+    - https://cosmos-rpc.polkachu.com
+  osmosis-1:
+    - https://osmosis-rpc.polkachu.com
+  kaiyo-1:
+    - https://kujira-rpc.polkachu.com
+  noble-1:
+    - https://noble-rpc.polkachu.com
+  columbus-5:
+    - https://terra-rpc.bryanlabs.net
+  phoenix-1:
+    - https://terra-rpc.polkachu.com
+interval: 15  # seconds
+aggregation: max  # or 'mean'
+log_format: json  # or 'text'
+log_level: INFO  # or INFO, WARNING, ERROR
