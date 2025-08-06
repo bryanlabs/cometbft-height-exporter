@@ -1,0 +1,23 @@
+chains:
+  cosmoshub-4:
+    cname: cosmoshub
+    interval: 5  # Fast polling for test
+    use_chain_registry: true
+    max_registry_rpcs: 5  # Limit for test
+    endpoints:
+      - url: https://cosmos-rpc.polkachu.com
+        interval: 1  # Every second
+      - url: https://rpc.lavenderfive.com:443/cosmoshub
+        interval: 2  # Every 2 seconds (staggered)
+      - url: https://cosmos-rpc.quickapi.com:443
+        interval: 1  # Every second
+
+interval: 5
+aggregation: max
+log_format: text  # Easier to read during test
+log_level: INFO
+
+registry:
+  update_interval: 3600
+  health_check_timeout: 3  # Faster for testing
+  min_healthy_threshold: 2
