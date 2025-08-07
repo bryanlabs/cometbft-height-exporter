@@ -1,101 +1,257 @@
-    chains:
-      thorchain-1:
-        - https://rpc.ninerealms.com
-      cosmoshub-4:
-        - https://cosmos-rpc.polkachu.com
-        - https://cosmoshub.tendermintrpc.lava.build:443
-        - https://cosmos-rpc.quickapi.com:443
-        - https://rpc.lavenderfive.com:443/cosmoshub
-        - https://rpc-cosmoshub.ecostake.com
-        - https://cosmos-rpc.publicnode.com:443
-        - https://cosmos-rpc.stakeandrelax.net
-        - https://cosmos-rpc.w3coins.io
-        - https://cosmoshub-mainnet-rpc.itrocket.net
-        - https://cosmoshub-rpc.cosmosrescue.dev
-        - https://cosmoshub.rpc.kjnodes.com
-        - https://cosmoshub.rpc.stakin-nodes.com
-        - https://rpc-cosmos-hub-01.stakeflow.io
-        - https://rpc.cosmos.bh.rocks
-        - https://rpc.cosmos.nodestake.org
-        - https://rpc.cosmoshub.goldenratiostaking.net
-        - https://cosmos-rpc.ibs.team
-        - https://cosmos-rpc.highstakes.ch
-      osmosis-1:
-        - https://osmosis-rpc.polkachu.com
-        - https://osmosis-rpc.quickapi.com:443
-        - https://rpc.lavenderfive.com:443/osmosis
-        - https://rpc-osmosis.ecostake.com
-        - https://osmosis.rpc.stakin-nodes.com
-        - https://rpc-osmosis-01.stakeflow.io
-        - https://osmosis-rpc.publicnode.com:443
-        - https://osmosis-rpc.stake-town.com
-        - https://osmosis.interstellar-lounge.org
-        - https://rpc.cros-nest.com/osmosis
-        - https://rpc.osmosis.bronbro.io:443
-        - https://rpc.osmosis.goldenratiostaking.net
-        - https://rpc.osmosis.validatus.com
-        - https://osmosis-rpc.noders.services
-      kaiyo-1:
-        - https://kujira-rpc.polkachu.com
-        - https://rpc.lavenderfive.com:443/kujira
-        - https://rpc-kujira.starsquid.io
-        - https://kujira-rpc.publicnode.com:443
-        - https://kujira.interstellar-lounge.org
-      noble-1:
-        - https://noble-rpc.polkachu.com
-        - https://rpc.lavenderfive.com:443/noble
-        - https://noble-rpc.owallet.io
-      columbus-5:
-        - https://terra-rpc.bryanlabs.net
-        - https://terra-classic-rpc.publicnode.com:443
-        - https://terraclassic-rpc-server-01.stakely.io
-        - https://api-lunc-rpc.binodes.com
-      phoenix-1:
-        - https://terra-rpc.polkachu.com
-        - https://rpc.lavenderfive.com:443/terra2
-        - https://terra-rpc.stakely.io:443/
-        - https://terra-rpc.publicnode.com:443
-        - https://rpc-terra-01.stakeflow.io
-        - https://terra2.tdrsys.com:2053
-        - https://terra-rpc.cosmosrescue.dev:8443
-        - https://terra-rpc.chainroot.io
-      penumbra-1:
-        - https://penumbra-rpc.polkachu.com
-      pryzm-1:
-        - https://pryzm-rpc.polkachu.com
-        - https://rpc.pryzm.zone
-        - https://rpc.lavenderfive.com:443/pryzm
-        - https://pryzm-mainnet-rpc.autostake.com:443
-        - https://pryzm-rpc.chainroot.io
-      agoric-3:
-        - https://agoric-rpc.polkachu.com
-        - https://agoric-rpc.stakeandrelax.net
-        - https://agoric-rpc.stakeangle.com
-        - https://agoric-rpc.w3coins.io
-        - https://agoric.rpc.kjnodes.com
-        - https://main.rpc.agoric.net:443
-        - https://rpc-agoric-01.stakeflow.io
-        - https://rpc.agoric.bronbro.io:443
-        - https://rpc.agoric.stakewith.us
-      dydx-mainnet-1:
-        - https://dydx-rpc.polkachu.com
-        - https://dydx-dao-rpc.polkachu.com
-        - https://dydx-rpc.kingnodes.com:443
-        - https://dydx-rpc.publicnode.com:443
-        - https://dydx.interstellar-lounge.org
-        - https://rpc-dydx.ecostake.com:443
-        - https://rpc.lavenderfive.com:443/dydx
-      neutron-1:
-        - https://neutron-rpc.polkachu.com
-        - https://rpc-lb.neutron.org
-        - https://rpc-solara.neutron-1.neutron.org
-        - https://rpc-vertexa.neutron-1.neutron.org
-        - https://rpc-voidara.neutron-1.neutron.org
-        - https://rpc-pulsarix.neutron-1.neutron.org
-        - https://rpc.lavenderfive.com:443/neutron
-        - https://neutron-rpc.publicnode.com:443
-        - https://rpc.neutron.quokkastake.io
-    interval: 15  # seconds
-    aggregation: max  # or 'mean'
-    log_format: json  # or 'text'
-    log_level: INFO  # or INFO, WARNING, ERROR
+chains:
+  thorchain-1:
+    cname: thorchain
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://rpc.ninerealms.com
+        interval: 2
+        
+  cosmoshub-4:
+    cname: cosmoshub
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 5
+    endpoints:
+      - url: https://cosmos-rpc.polkachu.com
+        interval: 2
+      - url: https://cosmoshub.tendermintrpc.lava.build:443
+        interval: 2
+      - url: https://cosmos-rpc.quickapi.com:443
+        interval: 2
+      - url: https://rpc.lavenderfive.com:443/cosmoshub
+        interval: 30  # LavendelFive throttles
+      - url: https://rpc-cosmoshub.ecostake.com
+        interval: 2
+      - url: https://cosmos-rpc.publicnode.com:443
+        interval: 2
+      - url: https://cosmos-rpc.stakeandrelax.net
+        interval: 2
+      - url: https://cosmos-rpc.w3coins.io
+        interval: 2
+      - url: https://cosmoshub-mainnet-rpc.itrocket.net
+        interval: 2
+      - url: https://cosmoshub-rpc.cosmosrescue.dev
+        interval: 2
+      - url: https://cosmoshub.rpc.kjnodes.com
+        interval: 2
+      - url: https://cosmoshub.rpc.stakin-nodes.com
+        interval: 2
+      - url: https://rpc-cosmos-hub-01.stakeflow.io
+        interval: 2
+      - url: https://rpc.cosmos.bh.rocks
+        interval: 2
+      - url: https://rpc.cosmos.nodestake.org
+        interval: 2
+      - url: https://rpc.cosmoshub.goldenratiostaking.net
+        interval: 2
+      - url: https://cosmos-rpc.ibs.team
+        interval: 2
+      - url: https://cosmos-rpc.highstakes.ch
+        interval: 2
+        
+  osmosis-1:
+    cname: osmosis
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 5
+    endpoints:
+      - url: https://osmosis-rpc.polkachu.com
+        interval: 2
+      - url: https://osmosis-rpc.quickapi.com:443
+        interval: 2
+      - url: https://rpc.lavenderfive.com:443/osmosis
+        interval: 30  # LavendelFive throttles
+      - url: https://rpc-osmosis.ecostake.com
+        interval: 2
+      - url: https://osmosis.rpc.stakin-nodes.com
+        interval: 2
+      - url: https://rpc-osmosis-01.stakeflow.io
+        interval: 2
+      - url: https://osmosis-rpc.publicnode.com:443
+        interval: 2
+      - url: https://osmosis-rpc.stake-town.com
+        interval: 2
+      - url: https://osmosis.interstellar-lounge.org
+        interval: 2
+      - url: https://rpc.cros-nest.com/osmosis
+        interval: 2
+      - url: https://rpc.osmosis.bronbro.io:443
+        interval: 2
+      - url: https://rpc.osmosis.goldenratiostaking.net
+        interval: 2
+      - url: https://rpc.osmosis.validatus.com
+        interval: 2
+      - url: https://osmosis-rpc.noders.services
+        interval: 2
+        
+  kaiyo-1:
+    cname: kujira
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://kujira-rpc.polkachu.com
+        interval: 2
+      - url: https://rpc.lavenderfive.com:443/kujira
+        interval: 30  # LavendelFive throttles
+      - url: https://rpc-kujira.starsquid.io
+        interval: 2
+      - url: https://kujira-rpc.publicnode.com:443
+        interval: 2
+      - url: https://kujira.interstellar-lounge.org
+        interval: 2
+        
+  noble-1:
+    cname: noble
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://noble-rpc.polkachu.com
+        interval: 2
+      - url: https://rpc.lavenderfive.com:443/noble
+        interval: 30  # LavendelFive throttles
+      - url: https://noble-rpc.owallet.io
+        interval: 2
+        
+  columbus-5:
+    cname: terra
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://terra-rpc.bryanlabs.net
+        interval: 1  # Your own RPC
+      - url: https://terra-classic-rpc.publicnode.com:443
+        interval: 2
+      - url: https://terraclassic-rpc-server-01.stakely.io
+        interval: 2
+      - url: https://api-lunc-rpc.binodes.com
+        interval: 2
+        
+  phoenix-1:
+    cname: terra2
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://terra-rpc.polkachu.com
+        interval: 2
+      - url: https://rpc.lavenderfive.com:443/terra2
+        interval: 30  # LavendelFive throttles
+      - url: https://terra-rpc.stakely.io:443/
+        interval: 2
+      - url: https://terra-rpc.publicnode.com:443
+        interval: 2
+      - url: https://rpc-terra-01.stakeflow.io
+        interval: 2
+      - url: https://terra2.tdrsys.com:2053
+        interval: 2
+      - url: https://terra-rpc.cosmosrescue.dev:8443
+        interval: 2
+      - url: https://terra-rpc.chainroot.io
+        interval: 2
+        
+  penumbra-1:
+    cname: penumbra
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://penumbra-rpc.polkachu.com
+        interval: 2
+        
+  pryzm-1:
+    cname: pryzm
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://pryzm-rpc.polkachu.com
+        interval: 2
+      - url: https://rpc.pryzm.zone
+        interval: 2
+      - url: https://rpc.lavenderfive.com:443/pryzm
+        interval: 30  # LavendelFive throttles
+      - url: https://pryzm-mainnet-rpc.autostake.com:443
+        interval: 2
+      - url: https://pryzm-rpc.chainroot.io
+        interval: 2
+        
+  agoric-3:
+    cname: agoric
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://agoric-rpc.polkachu.com
+        interval: 2
+      - url: https://agoric-rpc.stakeandrelax.net
+        interval: 2
+      - url: https://agoric-rpc.stakeangle.com
+        interval: 2
+      - url: https://agoric-rpc.w3coins.io
+        interval: 2
+      - url: https://agoric.rpc.kjnodes.com
+        interval: 2
+      - url: https://main.rpc.agoric.net:443
+        interval: 2
+      - url: https://rpc-agoric-01.stakeflow.io
+        interval: 2
+      - url: https://rpc.agoric.bronbro.io:443
+        interval: 2
+      - url: https://rpc.agoric.stakewith.us
+        interval: 2
+        
+  dydx-mainnet-1:
+    cname: dydx
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://dydx-rpc.polkachu.com
+        interval: 2
+      - url: https://dydx-dao-rpc.polkachu.com
+        interval: 2
+      - url: https://dydx-rpc.kingnodes.com:443
+        interval: 2
+      - url: https://dydx-rpc.publicnode.com:443
+        interval: 2
+      - url: https://dydx.interstellar-lounge.org
+        interval: 2
+      - url: https://rpc-dydx.ecostake.com:443
+        interval: 2
+      - url: https://rpc.lavenderfive.com:443/dydx
+        interval: 30  # LavendelFive throttles
+        
+  neutron-1:
+    cname: neutron
+    interval: 5
+    use_chain_registry: true
+    max_registry_rpcs: 3
+    endpoints:
+      - url: https://neutron-rpc.polkachu.com
+        interval: 2
+      - url: https://rpc-lb.neutron.org
+        interval: 2
+      - url: https://rpc-solara.neutron-1.neutron.org
+        interval: 2
+      - url: https://rpc-vertexa.neutron-1.neutron.org
+        interval: 2
+      - url: https://rpc-voidara.neutron-1.neutron.org
+        interval: 2
+      - url: https://rpc-pulsarix.neutron-1.neutron.org
+        interval: 2
+      - url: https://rpc.lavenderfive.com:443/neutron
+        interval: 30  # LavendelFive throttles
+      - url: https://neutron-rpc.publicnode.com:443
+        interval: 2
+      - url: https://rpc.neutron.quokkastake.io
+        interval: 2
+
+interval: 15  # seconds (global fallback)
+aggregation: max  # or 'mean'
+log_format: json  # or 'text'
+log_level: INFO  # or INFO, WARNING, ERROR

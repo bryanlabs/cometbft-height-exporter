@@ -80,3 +80,115 @@
 2025-08-06 19:05:19,398 WARNING cometbft_height_exporter Failed to fetch status from https://cosmos-rpc.polkachu.com/status: HTTPSConnectionPool(host='cosmos-rpc.polkachu.com', port=443): Read timed out. (read timeout=5)
 2025-08-06 19:05:19,398 WARNING cometbft_height_exporter Failed to poll https://cosmos-rpc.polkachu.com: HTTPSConnectionPool(host='cosmos-rpc.polkachu.com', port=443): Read timed out. (read timeout=5)
 2025-08-06 19:05:30,008 INFO cometbft_height_exporter Chain cosmoshub-4 adaptive status: Manual(3/3, 79.5% eff), Registry(5/5, 93.3% eff)
+2025-08-06 19:09:48,286 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:09:48,286 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.0s → 7.5s (+50.0%)
+2025-08-06 19:09:48,287 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:09:50,372 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:09:50,373 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.6s → 3.9s (+50.0%)
+2025-08-06 19:09:50,373 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:13:06,997 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:13:06,998 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.4s → 3.6s (+50.0%)
+2025-08-06 19:13:06,998 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:13:11,347 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:13:11,347 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.4s → 8.1s (+50.0%)
+2025-08-06 19:13:11,348 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:15:30,038 INFO cometbft_height_exporter Chain cosmoshub-4 adaptive status: Manual(3/3, 92.6% eff), Registry(5/5, 94.5% eff)
+2025-08-06 19:16:07,060 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:16:07,061 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.2s → 3.3s (+50.0%)
+2025-08-06 19:16:07,061 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:17:58,786 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:17:58,787 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.0s → 7.5s (+50.0%)
+2025-08-06 19:17:58,787 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:18:00,921 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:18:00,922 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.4s → 3.6s (+50.0%)
+2025-08-06 19:18:00,922 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:20:42,145 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:20:42,145 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.2s → 3.3s (+50.0%)
+2025-08-06 19:20:42,145 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:20:52,838 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:20:52,838 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 3.3s → 4.9s (+50.0%)
+2025-08-06 19:20:52,838 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:25:30,069 INFO cometbft_height_exporter Chain cosmoshub-4 adaptive status: Manual(3/3, 92.6% eff), Registry(5/5, 100.0% eff)
+2025-08-06 19:25:36,283 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:25:36,283 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.6s → 3.8s (+50.0%)
+2025-08-06 19:25:36,283 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:28:11,789 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:28:11,790 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.8s → 4.2s (+50.0%)
+2025-08-06 19:28:11,791 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:28:16,304 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:28:16,305 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 4.2s → 6.3s (+50.0%)
+2025-08-06 19:28:16,306 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:35:11,857 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:35:11,857 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.8s → 4.2s (+50.0%)
+2025-08-06 19:35:11,857 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:35:30,094 INFO cometbft_height_exporter Chain cosmoshub-4 adaptive status: Manual(3/3, 82.7% eff), Registry(5/5, 100.0% eff)
+2025-08-06 19:36:30,099 WARNING cometbft_height_exporter Chain cosmoshub-4 height drift >10s: 12.0s, confidence: 80.0% (8 healthy endpoints). Consider adding more RPC servers.
+2025-08-06 19:38:17,595 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:38:17,596 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.6s → 3.8s (+50.0%)
+2025-08-06 19:38:17,596 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:41:02,873 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:41:02,874 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.0s → 7.5s (+50.0%)
+2025-08-06 19:41:02,874 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:41:04,912 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:41:04,914 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.4s → 3.5s (+50.0%)
+2025-08-06 19:41:04,915 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:43:51,083 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:43:51,083 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.2s → 3.3s (+50.0%)
+2025-08-06 19:43:51,083 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:44:02,535 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:44:02,536 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.4s → 8.1s (+50.0%)
+2025-08-06 19:44:02,536 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:45:30,122 INFO cometbft_height_exporter Chain cosmoshub-4 adaptive status: Manual(3/3, 90.8% eff), Registry(5/5, 94.5% eff)
+2025-08-06 19:46:32,175 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:46:32,176 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 6.9s → 10.4s (+50.0%)
+2025-08-06 19:46:32,176 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:46:33,855 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:46:33,855 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.0s → 3.0s (+50.0%)
+2025-08-06 19:46:33,855 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:49:04,573 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:49:04,574 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.0s → 3.0s (+50.0%)
+2025-08-06 19:49:04,575 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:49:14,057 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:49:14,057 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 3.0s → 4.5s (+50.0%)
+2025-08-06 19:49:14,058 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:52:30,147 WARNING cometbft_height_exporter Chain cosmoshub-4 height drift >10s: 13.0s, confidence: 80.0% (8 healthy endpoints). Consider adding more RPC servers.
+2025-08-06 19:53:23,883 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:53:23,884 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.3s → 3.5s (+50.0%)
+2025-08-06 19:53:23,884 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:53:27,874 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:53:27,875 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.0s → 7.5s (+50.0%)
+2025-08-06 19:53:27,875 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:55:30,156 INFO cometbft_height_exporter Chain cosmoshub-4 adaptive status: Manual(3/3, 92.9% eff), Registry(5/5, 95.7% eff)
+2025-08-06 19:56:10,039 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:56:10,040 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.2s → 3.2s (+50.0%)
+2025-08-06 19:56:10,040 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:56:13,721 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:56:13,722 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 3.2s → 4.9s (+50.0%)
+2025-08-06 19:56:13,722 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:56:15,557 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:56:15,558 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.4s → 8.1s (+50.0%)
+2025-08-06 19:56:15,558 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 19:57:30,163 WARNING cometbft_height_exporter Chain cosmoshub-4 height drift >10s: 12.0s, confidence: 80.0% (8 healthy endpoints). Consider adding more RPC servers.
+2025-08-06 19:58:30,166 WARNING cometbft_height_exporter Chain cosmoshub-4 height drift >10s: 12.0s, confidence: 80.0% (8 healthy endpoints). Consider adding more RPC servers.
+2025-08-06 20:00:52,589 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:00:52,589 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.5s → 3.8s (+50.0%)
+2025-08-06 20:00:52,589 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:03:42,337 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:03:42,338 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.3s → 3.5s (+50.0%)
+2025-08-06 20:03:42,338 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:05:30,205 INFO cometbft_height_exporter Chain cosmoshub-4 adaptive status: Manual(3/3, 92.9% eff), Registry(5/5, 100.0% eff)
+2025-08-06 20:05:55,230 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:05:55,231 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.5s → 3.8s (+50.0%)
+2025-08-06 20:05:55,231 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:08:44,945 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:08:44,946 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.0s → 7.5s (+50.0%)
+2025-08-06 20:08:44,947 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:08:46,909 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:08:46,910 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.3s → 3.5s (+50.0%)
+2025-08-06 20:08:46,910 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:11:33,008 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:11:33,010 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 5.4s → 8.1s (+50.0%)
+2025-08-06 20:11:33,011 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:11:34,094 WARNING cometbft_height_exporter Failed to fetch status from https://rpc.lavenderfive.com:443/cosmoshub/status: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
+2025-08-06 20:11:34,095 INFO cometbft_height_exporter 429 backoff https://rpc.lavenderfive.com:443/cosmoshub: 2.2s → 3.2s (+50.0%)
+2025-08-06 20:11:34,101 WARNING cometbft_height_exporter Rate limited https://rpc.lavenderfive.com:443/cosmoshub: 429 Client Error: Too Many Requests for url: https://rpc.lavenderfive.com:443/cosmoshub/status
